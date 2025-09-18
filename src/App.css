@@ -1,0 +1,43 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 238, 142);
+    height: 100vh;
+
+}
+.card{
+    margin: 30px;
+    padding: 30px;
+    height: 80vh;
+    width: 70vw;
+    background-color: cadetblue;
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+/* .top{
+    display: block;
+}
+
+.lists{
+    display: inline-flex;
+} */
+
+.top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.lists {
+    padding: 15px;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  gap: 20px;
+}

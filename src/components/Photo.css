@@ -1,0 +1,12 @@
+.photo img{
+   border-radius: 20px;
+   border: solid 2px black ;
+   height: 24vh;
+   width: 12vw;
+   
+   /* transition: 0.5s; */
+}
+
+/* .photo img:hover{
+   transform: scale(1.1);
+} */

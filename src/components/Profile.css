@@ -1,0 +1,18 @@
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+    height: 30vh;
+    width: 65vw;
+
+    padding: 0px 40px;
+
+    border-radius: 20px;
+
+    transition: 0.2s;
+}
+
+.profile:hover{
+    transform: scale(1.02);
+}

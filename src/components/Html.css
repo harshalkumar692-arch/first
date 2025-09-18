@@ -1,0 +1,30 @@
+.Html{
+    border-radius: 20px;
+    background-color: bisque;
+    width: 25vw;
+    height: 45vh;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    transition: 0.2s;
+    
+    
+}
+
+.Html:hover{
+    transform: scale(1.05);
+}
+
+.Html img{
+    height: 100px;
+    width: 100px;
+}
+
+.Html p{
+    width: 20vw;
+    font-size: 16px;
+}
