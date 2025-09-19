@@ -2,23 +2,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(238, 238, 142);
+    /* background-color: rgb(238, 238, 142); */
+    background: linear-gradient( 45deg, black, white, black);
     height: 100vh;
 
 }
 .card{
     margin: 30px;
     padding: 30px;
-    height: 80vh;
+    height: 85vh;
     width: 70vw;
-    background-color: cadetblue;
-    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    /* background: radial-gradient(circle at top, black, white); */
+    /* border-radius: 20px; */
   
     display: flex;
     flex-direction: column;
+
+    border: 5px solid black;
     
     
     
+    
+}
+.card h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+   position: relative;
+   margin-bottom: 10px;
+
 }
 /* .top{
     display: block;

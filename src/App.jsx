@@ -11,6 +11,7 @@ function App() {
     <>
       <div className="back">
         <div className="card">
+          <h1>PROFILE CARD</h1>
           <div className="top">
             
             <Profile></Profile>
