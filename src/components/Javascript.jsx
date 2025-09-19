@@ -1,6 +1,6 @@
 import React from 'react'
 // import js from '/JS'
-import './Javascript.css'
+import './javascript.css'
 
 const Javascript = () => {
   return (
